@@ -212,3 +212,19 @@ header {
        }
     }
 }
+.footer{
+padding: 100px 50px;
+ background: url('../images/footer-bg.jpg') no-repeat scroll ;
+ background-size: cover;
+ .footer-details{
+    img{
+        width: 100px;
+    }
+    h3{
+        font-size: 36px;
+        text-shadow:3px 3px 8px var(--praimary_color);
+        font-weight: 400;
+        color: var(--praimary_color);
+    }
+ }
+}
